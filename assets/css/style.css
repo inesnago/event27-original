@@ -43,7 +43,7 @@ a.nav-link:hover{
 
 .modal-content{
     background-color: transparent;
-    border-color: whitesmoke;
+    border-color: #FFC107;
 }
 
 .modal-form> input{
