@@ -1,0 +1,58 @@
+body{
+    font-family: 'Overpass', sans-serif;
+}
+
+.navbar-brand{
+    font-size: 1.6em;
+    letter-spacing: 0.05em;
+}
+
+.navbar .navbar-toggler{
+    color: rgba(255,255,255,.5);
+    border-color: rgba(255,255,255,.1);
+}
+
+.nav-link{
+    font-size: 18px;
+    letter-spacing: 0.1em;
+    color: whitesmoke;
+}
+
+a.nav-link:hover{
+    color: gray;
+    transition: all 0.3s ease-in-out;
+    -moz-transition: all 0.3s ease-in-out;
+    -webkit-transition: all 0.3s ease-in-out;
+    -o-transition: all 0.3s ease-in-out;
+}
+
+.hero-img{
+    background-image: url("../images/heroimg.jpg");
+    background-repeat: none;
+    background-position: center;
+    height: 85vh;
+    background-size: cover;
+}
+
+.hero-message{
+    color: whitesmoke;
+    text-align: center;
+    position: relative;
+    top: 30%;
+}
+
+.modal-content{
+    background-color: transparent;
+    border-color: whitesmoke;
+}
+
+.modal-form> input{
+    display: block;
+    width: 70%;
+    margin: 8px 0px;
+}
+
+.modal-form> label{
+    display: block;
+    text-align: justify;
+}
