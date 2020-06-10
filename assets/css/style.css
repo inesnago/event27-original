@@ -1,9 +1,11 @@
 body{
-    font-family: 'Overpass', sans-serif;
+    font-family: 'Barlow Semi Condensed', sans-serif;
+    font-size: 18px;
 }
 
 .navbar-brand{
-    font-size: 1.6em;
+    font-size: 2em;
+    font-weight: 500;
     letter-spacing: 0.05em;
 }
 
@@ -13,7 +15,7 @@ body{
 }
 
 .nav-link{
-    font-size: 18px;
+    font-size: 20px;
     letter-spacing: 0.1em;
     color: whitesmoke;
 }
@@ -42,8 +44,7 @@ a.nav-link:hover{
 }
 
 .modal-content{
-    background-color: transparent;
-    border-color: #FFC107;
+    border-color: none;
 }
 
 .modal-form> input{
