@@ -47,13 +47,27 @@ a.nav-link:hover{
     background-color: rgb(52,58,64, 0.8);
 }
 
-.modal-form> input{
+.block-input{
     display: block;
-    width: 70%;
+    width: 100%;
     margin: 8px 0px;
+    text-align: left;
 }
 
-.modal-form> label{
+.block-label{
     display: block;
     text-align: justify;
+}
+
+.inline-block{
+    display: inline-block;
+    margin: 0px;
+    text-align: justify;
+}
+
+.inline-block-label{
+    width: 95%;
+    display: inline-block;
+    text-align: justify;
+    vertical-align: top;
 }

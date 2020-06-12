@@ -66,12 +66,15 @@
                     <div class="modal-body">
                         <form class= "modal-form">
 
-                            <label for="fname">Full Name</label>
-                            <input type="text" id="fname" name="fname">
+                            <label class="block-label" for="fname">Full Name</label>
+                            <input class="block-input" type="text" id="fname" name="fname" required>
                             
-                            <label for="email">Email Address</label>
-                            <input type="email" id="email" name="email">
+                            <label class="block-label" for="email">Email Address</label>
+                            <input class="block-input" type="email" id="email" name="email" required>
 
+                            <input class="inline-block-input" id= "subscriptionConsent" name="subscriptionConsent" type="checkbox" required>
+                            <label class="inline-block-label" for="subscriptionConsent">I confirm that I am happy to receive event promotions and other related content from Event27</label>
+                           
                         </form>
                     </div>
                     <div class="modal-footer">
