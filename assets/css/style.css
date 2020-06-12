@@ -4,7 +4,7 @@ body{
 }
 
 .navbar-brand{
-    font-size: 2em;
+    font-size: 1.5em;    
     font-weight: 500;
     letter-spacing: 0.05em;
 }
@@ -44,7 +44,7 @@ a.nav-link:hover{
 }
 
 .modal-content{
-    border-color: none;
+    background-color: rgb(52,58,64, 0.8);
 }
 
 .modal-form> input{
